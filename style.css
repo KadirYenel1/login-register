@@ -1,0 +1,103 @@
+/* body ozellestirme */
+:root {
+    --color-primary: rgba(50, 120, 70, 0.5);
+    --color-primary-dark: rgb(3, 17, 8);
+    --color-secondary: rgb(60, 60, 190);
+    --color-error: rgb(210, 40, 40);
+    --color-success: rgb(90, 150, 40);
+    --border-radius: 5px;
+}
+
+body {
+    background:linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(software.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: white;
+    width: 400px;
+    max-width: 400px;
+    border-radius: var(--border-radius);
+    box-shadow: 0 0 20px red;
+    margin: 1rem;
+    padding: 1rem 2rem;
+    text-align: center;
+
+}
+
+/* form title */
+
+.form_title {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.form-input-group {
+    margin-bottom: 1rem;
+
+}
+
+.form-input {
+    width: 100%;
+    padding: 0.7rem;
+    box-sizing: border-box;
+    border-radius: var(--border-radius);
+    outline: none;
+    border: 2px solid #ddd;
+    background-color: #eee;
+    transition: background .3s, border-color .3s;
+}
+
+.form-input:hover {
+    border-color: var(--color-primary);
+    background-color: white;
+}
+
+.form-input-error-message {
+    margin-top: 0.5rem;
+    font-size: .85rem;
+    color: var(--color-error);
+}
+
+.form-button {
+    width: 100%;
+    padding: 1rem 2rem;
+    font-weight: bold;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: var(--border-radius);
+    background-color: var(--color-primary);
+    margin-top: .5rem;
+}
+
+.form-button:hover {
+    background-color: var(--color-primary-dark);
+}
+
+.form-button:active {
+    transform: scale(0.98);
+}
+
+.form-link {
+    color: var(--color-secondary);
+    text-decoration: none;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.form-link:hover {
+    text-decoration: underline;
+}
+
+.container,
+.form-input,
+.form-button {
+    font-family:  'Roboto', sans-serif
+}
