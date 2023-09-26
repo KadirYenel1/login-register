@@ -9,4 +9,4 @@ Projemi HTML5 ve CSS3 kodları ile tasarladım.
 
 <h2>Ekran Görüntüsü</h2>
 
-![](ezgif.com-video-to-gif.mp4)
+![](ezgif.com-video-to-gif.gif)
